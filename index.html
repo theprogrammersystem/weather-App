@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+     <!-- Favicon link -->
+     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="locationInput" class="rounded-input" placeholder="Enter Your Area">
+            <button onclick="getWeather()"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="weatherInfo"></div>
+        <div id="loading" style="display: none;"> Loading... </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
